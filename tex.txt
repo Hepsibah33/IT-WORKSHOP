@@ -1,0 +1,49 @@
+
+\documentclass{article}
+\begin{document}
+	content...
+\title{latex introduction}
+\author{HepsibahGrace}
+\date{03-03-2024}
+    \maketitle
+    \tableofcontents
+    \newpage
+    \section{latex introduction}
+    \label{sec:intro}
+latex is a programming language
+\subsection{unix}\label{sec:uni}
+unix commands are used in ubuntu
+\newpage 
+\section{linux} \label{jdbj}
+everything will be fine.
+\subsection{ubuntu}\label{cat}
+latex is easy to learn
+\end{document}
+
+
+
+/// 
+
+\documentclass{article}
+\begin{document}
+	\section{Enumerate}
+	\begin{enumerate}
+		\item unix
+		\item ubuntu
+		\item linux
+	\end{enumerate}
+	\section{itemize}
+  \begin{itemize}
+  	\item one
+  	\item two
+  	\item three
+  \end{itemize}
+\begin{description}
+	\item[unix] des this is unix cription
+	\item[linux] this is linux description
+	\item[ubuntu] this is ubuntu description
+\end{description}
+\large: this is unix\\
+\LARGE: this is unix\\
+\huge: this is unix\\
+\end{document}

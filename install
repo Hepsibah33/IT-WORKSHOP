@@ -1,0 +1,6 @@
+sudo apt-get update
+sudo apt install jupyter-notebook
+after installation type jupyter-notebook
+select python3 
+use control-C to stop 
+extension 

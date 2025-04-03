@@ -1,0 +1,132 @@
+\documentclass{article}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\definecolor{myblue}{RGB}{0,0,255}
+\definecolor{myred}{RGB}{255,0,0}
+\definecolor{mygreen}{RGB}{0,128,0}
+\definecolor{mymagenta}{RGB}{255,0,255}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=myblue,       
+	urlcolor=myblue,         
+	citecolor=mygreen,      
+	filecolor=mymagenta     
+}
+\title{IT Workshop Internal Exam - Set 1}
+\author{RGUKT Basar}
+\date{\today}
+\begin{document}
+	\maketitle
+	\textbf{Abstract}
+Answer any 2 of the following 3 questions. Time: 2 hours, Full marks 30. 
+\section{Question 1}
+Reproduce the following sections in LaTeX:
+
+LaTeX is a high-quality typesetting system; it includes features designed for the production of technical and scientific documentation. LaTeX is widely used in academia for the communication and publication of scientific documents in many fields, including mathematics, computer science, engineering, physics,chemistry, economics, and political science.
+	
+	\subsection{Coloured Text}
+	\textbf{\textcolor{blue}{Introduction}}  \\\
+	\textcolor{blue}{This is the introduction section, highlighted in blue.}  \\\
+	
+	\textbf{\textcolor{red}{Methodology}}  \\\
+	\textcolor{red}{This section discusses the methodology, highlighted in red}  \\\
+	
+	\textbf{\textcolor{green}{Results}}  \\\
+	\textcolor{green}{This section presents the results, highlighted in green.}  \\\
+	
+	\subsection{Special Characters}
+	\begin{description}
+		\item LaTeX allows you to include special characters such as:
+		\item Dollar sign: 
+		\item Ampersand:
+		\item Percent:
+		\item Hash:
+	\end{description}
+	
+	\subsection{Including Figures}
+	To include figures, you first need to upload the image file named sample-image.jpg from your com-
+	puter using the upload link in the file-tree menu. Then use the includegraphics command to include
+	it in your document.
+	
+	\subsection{Creating Tables}
+	Use the table and tabular environments for basic tables. Here’s an example:
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.25\textwidth]{logo.png} 
+		\caption{This is a sample image}
+	\end{figure}
+	\subsection{Mathematical Expressions}
+	LaTeX excels at typesetting mathematics. Here is the quadratic formula inline: \[ax^2 + bx + c = 0\]. \\
+	Displayed verion: \\
+	\[x = \frac{-b + \sqrt{b^2-4ac}}{2a}\] 
+	
+	Sine and Cosine Addition Formulas  \\
+	\begin{math}
+	 	sin(a + b) = sinacosb + cosasinb  \\	
+	\end{math}
+	Displayed version: \\
+	\[\int_{a}^{b}f(x)dx\]
+	
+	Binomial Theorem \\
+	\[(a+b)^n = \sum_{k=0}^{n}a^(n-k)b^k\]
+	
+	\subsection{Lists}
+	\begin{enumerate}
+	    \item You can make lists with automatic numbering:
+		\item First Item
+		\item Second item
+		\item Third item
+	\end{enumerate}
+	\begin{itemize}
+		\item \textcolor{magenta}{This text is magenta.}
+		\item \textcolor{yellow}{This text is yellow.}
+		\item \textcolor{black}{This text is black.}
+		\item \textcolor{gray}{This text is gray.}
+	\end{itemize}
+	
+	
+	\subsection{Hyperlinks}
+	For more information, visit the \href{http://www.example.com}{LaTeX project website}.
+	 
+	\subsection{Bibliography}
+	To include references, you can use BibTeX. Here is an example citation [Doe24]. 
+	
+	
+	\cite{Doe24},
+	\bibliographystyle{plain}
+	\bibliography{ref}
+	
+	\$\  \&\ \#\ \%\ 
+	\textbackslash
+	\textless{}
+	\textgreater{}
+	$\vert$
+	 “Hello”
+	 
+\vspace{1cm} 
+• For example: \vspace{1cm} adds a vertical space of 1
+centimeter.
+\vspace{1cm} color
+• For example: \vspace{1cm} adds a vertical 
+	\\
+	\hspace{1cm} adds a horizontal space of 1
+	centimeter.
+	
+	
+  $@$
+  \href{http://www.example.com}{Link text}
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}

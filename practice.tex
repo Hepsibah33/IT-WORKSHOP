@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{setspace}
+\begin{document}
+	\title{Latex Document}
+	\author{Grace}
+	\date{\today}
+	\maketitle
+	
+	\section{Introduction}\label{sec:intro}
+	This is my first latex document to demonstrate
+	
+	\section{Main content}
+	Here is some text with a \textbf{bold: bold content usage}
+	\textit{italic: italic sentence}
+	word and an \emph{italic}
+	\subsection{Lists}
+	\begin{itemize}
+		\item first item
+		\item Second item
+	\end{itemize}
+	\section{Conclusion}
+	That's all about today's topic
+	\begin{table}[h]
+		\centering 
+		\begin{tabular}{|c|c|c|}
+			\hline
+			\textbf{Column1}&\textbf{Column2}&\textbf{Column3}\\
+			\hline
+			Row1,Cell 1 & Row 1,Cell 2 & Row 1,Cell 3\\
+			\hline
+			Row 2,Cell 1 & Row 2, Cell 2 & Row 2,Cell 3\\
+			\hline
+		\end{tabular}
+		\caption{Example Table}
+		\label{tab:example}
+    \end{table}
+    \section{Method}\label{sec:method}
+    This is the introduction section
+    
+    \section{Procedure}\label{subsec:procedure}
+    This is my procedure subsection
+    
+    \section{Result}\label{sec:results}
+    This is my results section. Referencing Section \ref{sec:intro} and Section
+    \ref{sec:method}
+    
+    \begin{figure}[htbp]
+    	\centering
+    	\includegraphics[width=0.5\textwidth]{click.jpg}
+    	\caption{Example Figure}\label{fig: example}
+    
+    \end{figure}
+    Referencing Figure \ref{fig: example}
+    
+    Equation \ref{eq:example} shows an example equation:
+    \begin {equation}\label{eq:example}
+    E = mc^2
+    \end{equation}
+    Referencing Equation \ref{eq:example}.
+    
+   
+    \tableofcontents
+    \newpage
+    \section{introduction}    
+    this is introduction
+    \subsection{latex introduction}
+    this is intro
+    \section{latex}
+    
+    Latex will generate a table of contents
+    \subsection{High-quality typesetting}
+    professional-looking documents with high-quality typography
+    \section{font size:}
+    In LaTeX, you can adjust the font size using various commands.
+    \subsection{font style}
+    c In LaTeX, you can adjust the font style using various commands.
+    \subsubsection{font size,font style}
+    
+    \textcolor{blue}{this is blue color}
+    \textcolor{red}{this is red color}
+    
+    \textbf{bold type text}
+    \textit{italic type text}
+    \texttt{monospace type text}
+    \textcolor{blue}{\underline{important}}
+    \section{Enumerate}
+    \begin{enumerate}
+    	\item First item
+    	\item Second item
+    	\item Third item
+    \end{enumerate}
+    \begin{description}
+    	\item [LaTeX] A document preparation system and document markup language.
+    \end{description}
+    A Description under \vspace{3cm} word control errors
+    2 \textless{} 3 \doublespacing
+     2 \textgreater{} 4
+     
+     \cite{sawyer1998software},
+     \section{Reference}
+     \bibliographystyle{plain}
+     \bibliography{ref}
+    
+    
+\end{document}
+
